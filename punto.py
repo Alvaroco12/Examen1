@@ -33,10 +33,10 @@ class Punto:
         else:
             return "En el origen"
         
-    # Metodo vector
+    # Método vector
     def vector(self, p):
-        return Punto(p.x - self.x, p.y - self.y) # llama a la funcion punto y le pasa como parametro la diferencia de las coordenadas
-    
+        return Punto(p.x - self.x, p.y - self.y)
+
     # Método distancia
     def distancia(self, p):
         distancia = math.sqrt((p.x - self.x) ** 2 + (p.y - self.y) ** 2)

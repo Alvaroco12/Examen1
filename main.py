@@ -21,8 +21,7 @@ if __name__ == "__main__":
     print(A.vector(B))
     print(B.vector(A))
 
-
     rect = Rectangulo(A, B)
-    print(rect.base())
-    print(rect.altura())
-    print(rect.area())
+    print(rect.base())   # Imprime la base del rectángulo
+    print(rect.altura()) # Imprime la altura del rectángulo
+    print(rect.area())   # Imprime el área del rectángulo
