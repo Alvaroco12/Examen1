@@ -8,3 +8,6 @@ class Rectangulo:
     
     def altura(self):
         return abs(self.p2[1] - self.p1[1])
+    
+    def area(self):
+        return self.base() * self.altura()
