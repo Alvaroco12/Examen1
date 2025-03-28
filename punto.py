@@ -1,3 +1,5 @@
+import math
+
 class Punto:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -35,3 +37,8 @@ class Punto:
     def vector(self, p):
         return Punto(p.x - self.x, p.y - self.y) # llama a la funcion punto y le pasa como parametro la diferencia de las coordenadas
     
+    # Método distancia
+    def distancia(self, p):
+        distancia = math.sqrt((p.x - self.x) ** 2 + (p.y - self.y) ** 2)
+        print(f"La distancia entre los puntos ({self.x}, {self.y}) y ({p.x}, {p.y}) es: {distancia}")
+        return distancia
