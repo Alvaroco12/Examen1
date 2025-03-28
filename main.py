@@ -3,7 +3,6 @@ from Rectangulo import Rectangulo
 
 if __name__ == "__main__":
     punto = Punto()
-    rectangulo = Rectangulo()
 
     A = punto.crear(2, 3)
     B = punto.crear(5, 5)
@@ -23,7 +22,7 @@ if __name__ == "__main__":
     print(B.vector(A))
 
 
-    # rectangulo = Rectangulo(A, B)
-    # print(rectangulo.base())
-    # print(rectangulo.altura())
-    # print(rectangulo.area())
+    rect = Rectangulo(A, B)
+    print(rect.base())
+    print(rect.altura())
+    print(rect.area())
