@@ -18,3 +18,12 @@ if __name__ == "__main__":
     print(A.cuadrante())
     print(B.cuadrante())
     print(D.cuadrante())
+
+    print(A.vector(B))
+    print(B.vector(A))
+
+
+    # rectangulo = Rectangulo(A, B)
+    # print(rectangulo.base())
+    # print(rectangulo.altura())
+    # print(rectangulo.area())
